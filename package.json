@@ -1,0 +1,30 @@
+{
+  "name": "budgetapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "Set NODE_ENV=development && nodemon server.js",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=14.20.1"
+  },
+  "author": "iappc",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.1",
+    "node": "^20.6.0",
+    "nodemailer": "^6.9.5",
+    "nvm": "^0.0.4",
+    "validator": "^13.11.0",
+    "yarn": "^1.22.19"
+  }
+}
